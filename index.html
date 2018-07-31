@@ -2,7 +2,24 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="AJAX.js" />
+    <script>
+    var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbyt3MHtg99alfSwzwZ3L7oyCcE24aajhlDEbhaVWrBQQk7AWEc/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    alert('hello!')
+  );
+})
+    </script>
+    <!-- <script src="file:///E:/Documents/Projects/GithubWebsite/MrScislowski.github.io/AJAX.js"> </script> -->
+    <!-- <script src="./AJAX.js" /> -->
 </head>
 
 <body>
