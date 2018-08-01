@@ -7,7 +7,9 @@
             var xhttp = new XMLHttpRequest();
             url = 'https://script.google.com/macros/s/AKfycbyt3MHtg99alfSwzwZ3L7oyCcE24aajhlDEbhaVWrBQQk7AWEc/exec';
             xhttp.open("GET", url, true);
-            var theForm = document.getElementById('test-form');
+            // var theForm = document.getElementById('test-form');
+            var formData = new FormData();
+            formData.append("email", "broma@example.com");
             xhttp.send(theForm);
         }
     </script>
