@@ -3,26 +3,40 @@
 
 <head>
     <script>
-        function loadDoc() {
+        function sendData() {
             var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
-                if (this.readyState == 4 && this.status == 200) {
-                    document.getElementById("demo").innerHTML = this.responseText;
-                }
-            };
             url = 'https://script.google.com/macros/s/AKfycbyt3MHtg99alfSwzwZ3L7oyCcE24aajhlDEbhaVWrBQQk7AWEc/exec';
             xhttp.open("GET", url, true);
-            xhttp.send();
+            var theForm = document.getElementById('test-form');
+            xhttp.send(theForm);
         }
     </script>
 </head>
 
 <body>
 
-    <div id="demo">
-        <h2>Let AJAX change this text</h2>
-        <button type="button" onclick="loadDoc()">Change Content</button>
-    </div>
+    <form id="test-form">
+
+        <div>
+            <label>Enter your IP here:</label>
+            <input type="text" name="ip" placeholder="Field 1" />
+        </div>
+
+        <div>
+            <label>Enter your email here:</label>
+            <input type="text" name="email" placeholder="Field 2" />
+        </div>
+
+        <div>
+            <label>Enter some text here:</label>
+            <input type="text" name="text" placeholder="Field 3" />
+        </div>
+
+        <div>
+            <button type="submit" id="submit-form" onclick="sendData()">Submit</button>
+        </div>
+
+    </form>
 
 </body>
 
