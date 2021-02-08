@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5.075644mm"
+   height="3.2688684mm"
+   viewBox="0 0 5.075644 3.2688684"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="video_icon.svg"
+   inkscape:export-filename="E:\Documents\Zim\Projects\VideoAdministration\Calendar\published\MrScislowski.github.io\video_icon.png"
+   inkscape:export-xdpi="194.25682"
+   inkscape:export-ydpi="194.25682">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="13.797035"
+     inkscape:cy="-43.654653"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     inkscape:window-x="-8"
+     inkscape:window-y="53"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid826"
+       originx="-3.5758606"
+       originy="-290.18203" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.5758606,-3.549102)">
+    <g
+       id="g849"
+       transform="translate(-49.444863,-51.583019)">
+      <g
+         transform="translate(-10.924642,2.4388344)"
+         id="g842">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.25129762;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect828"
+           width="3.8891106"
+           height="2.9338489"
+           x="64.071014"
+           y="52.818935" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path844"
+           d="m 68.0535,54.018588 0.835218,-0.968851 v 2.556351 L 68.0535,54.637237 Z"
+           style="fill:#000000;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>
